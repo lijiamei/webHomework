@@ -1,0 +1,93 @@
+    *{
+         margin:0;
+         padding:0;
+    }
+    ul,li{
+      	 list-style: none;
+    }
+
+ 		#header{
+ 			    height:20px;
+ 			    background-color: #cccccc;
+ 		}
+ 		.one{
+ 			    margin-left: 100px;
+ 			    float: left;
+ 		}
+ 		.two{
+ 			    width: 1000px;
+     	  	height:20px;
+      		margin-left: 120px;
+      		float: left;   
+      		position: absolute;
+      		overflow: hidden;
+ 		}
+ 		.two p{
+          font-size: 12px;
+          line-height: 1.5em;
+          color:red;        
+		      width: 350px;
+		      overflow: hidden;
+		      position: absolute;
+	        right: -200px;              
+        }
+
+    .box{
+     			width: 1200px;
+     			height: 380px;
+     			margin:0 auto;
+     			margin-top: 10px;
+     			position: relative;
+     			overflow: hidden;
+ 		}
+ 		.slider{
+     			width: 8400px;
+     			height: 380px;
+     			margin:0 auto;
+     			position: absolute;
+     			left:-1200px;
+ 		}
+ 		.slide{
+     			width: 1200px;
+     			height: 380px;
+     			margin:0 auto;
+     			overflow: hidden;
+     			float:left;
+ 		}
+ 		.box>span{
+     			display: block;
+     			width:30px;
+     			height: 50px;
+     			text-align: center;
+     			cursor:pointer;
+     			color: #cccccc;
+     			top:175px;
+     			line-height: 50px;
+     			background:rgb(255,0,0);
+     			font-size: 30px;
+     			position: absolute;
+     			opacity: 0; 
+ 		}
+ 		#left{
+     			left: 30px;
+ 		}
+ 		#right{
+ 			    right: 30px;
+ 		}
+ 		.nav{
+ 			    position: absolute;
+ 			    left: 500px;
+ 			    bottom: 20px;
+ 		}
+ 		.nav>li{
+     			float: left;
+     			width: 20px;
+     			height: 20px;
+     			background:#cccccc;
+     			cursor: pointer;
+     			margin: 0 10px;
+     			border-right:50%;
+     			border-radius: 50%;
+     			text-align: center;  
+ 		}
+ 		
